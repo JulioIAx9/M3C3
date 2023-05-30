@@ -12,7 +12,6 @@ def imprimir_nombres(lista):
     for nombre in lista:
         print(nombre)
 
-
 nombres = [
     "Harry Houdini",
     "Newton",
@@ -25,11 +24,6 @@ nombres = [
     "Pele",
     "Juanes"
 ]
-# Imprimir la lista original sin modificaciones
-# print("Lista completa de nombres:")
-# for nombre in nombres:
-#    print(nombre)
-
 # Vamos a crear las listas de magos y científicos
 magos = ["Harry Houdini", "David Blaine", "Teller", "Julito el Hermoso"] # Lo de julito fue para probar el string y me gusto XD, se puede omitir
 cientificos = ["Newton", "Hawking", "Einstein"]
@@ -45,7 +39,6 @@ hacer_grandioso(magos)
 #        nombres[i] = "El gran " + nombres[i]
 #     return "El gran " + nombre
 # Continuar con Imprimir cada una de las listas requeridas faltantes
-
 print("Lista completa de nombres:")
 # for nombre in nombres:
 #    print(nombre)
